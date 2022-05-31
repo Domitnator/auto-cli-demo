@@ -9,7 +9,7 @@
     "autoCreateLabelsDryRun": "auto create-labels",
     "lernaInit": "lerna init",
     "lernaCreatePackageB": "lerna create packageB",
-    "new-version": "lerna version --force-publish --no-commit-hooks --yes --no-push"
+    "new-version": "lerna version 1.0.2 --force-publish --no-commit-hooks --yes --no-push -m 'chore(release): publish %s'"
   },
   "repository": {
     "type": "git",
