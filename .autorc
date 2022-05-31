@@ -1,9 +1,10 @@
 {
   plugins: [
+    'git-tag',
     "conventional-commits"
   ],
   owner: "Alfred Brockotter",
   repo: "auto-cli-demo",
   name: "Alfred",
-  email: "alfred@domitnator.nl",
+  email: "alfred@frontis.nl",
 }
