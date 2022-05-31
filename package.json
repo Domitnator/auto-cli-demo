@@ -8,7 +8,8 @@
     "release": "auto shipit",
     "autoCreateLabelsDryRun": "auto create-labels",
     "lernaInit": "lerna init",
-    "lernaCreatePackageB": "lerna create packageB"
+    "lernaCreatePackageB": "lerna create packageB",
+    "new-version": "lerna version --force-publish --no-commit-hooks --yes --no-push"
   },
   "repository": {
     "type": "git",
@@ -21,12 +22,19 @@
   },
   "homepage": "https://github.com/Domitnator/auto-cli-demo#readme",
   "devDependencies": {
+    "@auto-it/conventional-commits": "^10.37.1",
     "auto": "^10.37.1",
     "lerna": "^5.0.0"
   },
   "auto": {
     "plugins": [
-      "npm"
+      "npm",
+      [
+        "conventional-commits",
+        {
+          "preset": "angular"
+        }
+      ]
     ]
   },
   "workspaces": [
