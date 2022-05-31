@@ -1,6 +1,5 @@
 {
   plugins: [
-    "git-tag", 
     "conventional-commits"
   ],
   owner: "Alfred Brockotter",
