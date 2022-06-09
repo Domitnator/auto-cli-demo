@@ -1,16 +1,12 @@
 {
-  "packages": ["packages/*"],
-  "version": "1.0.1",
+  "packages": ["packages/*", ".github/actions/*"],
+  "version": "0.3.0",
   "npmClient": "yarn",
   "useWorkspaces": true,
+  "ignoreChanges": ["**/__tests__/**"],
   "command": {
-    "version": {
-      "ignoreChanges": ["*.md"],
-      "npmClient": "npm",
-      "message": "chore(release): publish"
-    },
     "publish": {
-      "npmClient": "npm"
+      "verifyAccess": false
     }
   }
 }

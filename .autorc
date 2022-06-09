@@ -1,10 +1,11 @@
 {
   plugins: [
-    'git-tag',
-    "conventional-commits"
+    "git-tag", 
+    "conventional-commits",
+    ["jira", { "url": "https://symend.atlassian.net/browse" }]
   ],
-  owner: "Alfred Brockotter",
-  repo: "auto-cli-demo",
-  name: "Alfred",
-  email: "alfred@frontis.nl",
+  owner: "alfredbrockotter",
+  repo: "auto-demo",
+  name: "apolo",
+  email: "alfred@domitnator.nl",
 }
