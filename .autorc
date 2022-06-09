@@ -4,8 +4,8 @@
     "conventional-commits",
     ["jira", { "url": "https://symend.atlassian.net/browse" }]
   ],
-  owner: "alfredbrockotter",
-  repo: "auto-demo",
+  owner: "domitnator",
+  repo: "auto-cli-demo",
   name: "apolo",
   email: "alfred@domitnator.nl",
 }
